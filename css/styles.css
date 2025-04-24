@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+.container{
+    background-color: black;
+}
+
 .header{
     display: flex;
     align-items: center;
@@ -25,4 +29,12 @@
 .header__item{
     margin-right: 40px;
     color: white;
+}
+
+.banner-container{
+    width: 100%;
+    text-align: center;
+}
+.banner{
+    width:50vw;
 }
