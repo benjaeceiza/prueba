@@ -1,0 +1,28 @@
+*{
+    font-family: sans-serif;
+    margin:0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    background-color: green;
+    justify-content: space-between;
+}
+
+.header__list{
+    list-style: none;
+    display: flex;
+    width: 80vw;
+    justify-content: end;
+}
+
+.header__logo{
+    width: 100px;
+}
+
+.header__item{
+    margin-right: 40px;
+    color: white;
+}
